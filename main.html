@@ -3,40 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table in tables</title>
+    <title>Table</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-	  <table border="1" style=width: "100% height: 100%";>
+    <table style="width: 100%; height: 100%">
+      <table border="1">
+		<tr>
+			  <th colspan="2" >Nested Table 2</th>
+		  </tr>			  
 	  <tr>
-		  <td>
-			  <!--     NESTED TABLE 2-->
-		  </td>
-		  <table border="1">
-	  <tr>
-		  <th colspan="2">Nested Table</th>
+		  <th>column1</th>
+		  <th>column2</th>
 	  </tr>
-	  <tr>
-		  <th>Column1</th>
-		  <th>Column2</th>
-	  </tr>
-			  <tr>
-				  <td>abc</td>
-				  <td>def</td>
+		  <tr>
+			<td>abc</td>
+			<td>def</td>
+		  </tr>
+	  </table>
+		 <tr>
+			 <table border="1">
+			<th colspan="2">Nested Table 1</th>
+		 </tr>
+		  <tr>
+			  <td>
+			 <ul>
+				 <li>list item</li>
+			     <li>list item</li>
+			     <li>list item</li>
+			 </ul>
+			  </td>
+		  </tr>
+	      </table>
+<tr>
+	<td>
+		<table style="width: 100%; height: 100%">
+		<table border="1">
+			<th colspan="2">Nested table 3</th>
+		  <tr>
+			  <th><"Nested Table"</th>
+			  <th>Demo Continued</th>
+		  </tr>
+		</td>
+<td>
+	<table style="width: 100%; hieght: 100%">
+		<table border="1">
+</td>
+			<td>
+				
+			</td>
+			
+		</tr>	  
+		
+			  
+				</td>
 			  </tr>
 		  </table>
-	  </td>
-		  <td>
-			  
-			  <!--      Nested table 1-->
-		  </td>
-	  </tr>
-	  <td>
-		  <!--          Nested Table 3-->
-	  </td> 
-	  <td>
-		  <!--          Nested Table 4-->
-	  </td>
   </body>
-	
 </html>
